@@ -1,0 +1,9 @@
+.flex{
+    display: flex;
+}
+.invert{
+    filter: invert(1);
+}
+.mar{
+    margin: 13px;
+}

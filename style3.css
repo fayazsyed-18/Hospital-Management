@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+#bp-f1{
+    margin-top: 10px;
+    position: relative;
+}
+#bp-1{
+    border: 1px solid white;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    text-decoration:none;
+    padding: 5px 10px;
+    margin-left: 90vw;
+    border-radius: 5px ;
+    font-size: larger;
+}
+.post{
+    background-color: rgba(197, 195, 195, 0.307);
+    height: 75vh;
+}
+#ph{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+}
+.p{
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 13px;
+    height:auto;
+    width:16vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.im{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 8px 0px 25px 0px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.po{
+    justify-content: space-around;
+
+}
+.p h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+.fp-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#st{
+    font-style: italic;
+}
+.map{
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.map-l{
+    width: 10vw;
+}
+#mp-1{
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.map-r{
+    background-color: blue;
+    width: 30vw;
+    border-radius: 7px;
+}
+#contact{
+    text-align: center;
+    padding: 20px;
+}
+#contact h1{
+    color: white;
+    font-family: monospace;
+}
+#contact p{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 7px 0px;
+}
+.inp{
+    padding: 10px;
+    background-color: rgba(75, 75, 223, 0.442);
+    color:white;
+    width: 290px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.inp::placeholder{
+    color: white;
+}
+.mp-b1{
+    background-color: white;
+    color: blue;
+    padding: 5px 15px;
+    border-radius:2px 20px 2px 20px ;
+    border:1px solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#bp-f{
+    margin-bottom: 30px;
+}
+#bp-2{
+    border: 1px solid white;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    text-decoration:none;
+    padding: 8px 15px;
+    margin-left: 90vw;
+    border-radius: 5px ;
+    font-size: larger;
+    font-family:fantasy;
+}

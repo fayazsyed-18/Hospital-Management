@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="nav flex">
+            <div class="group flex">
+                <img class="logo invert" src="logo.svg" alt="">
+                <h2 class="h invert">Revo </h2>
+            </div>
+            <ul class="navbar flex">
+                <li><a href="" style="color: orange;">Home</a></li>
+                <li><a href="#hb" id="li-2">About</a></li>
+                <li><a href="service.html#pack">Service</a></li>
+                <li><a href="service.html#dcotors">Doctors</a></li>
+                <li><a href="service.html#foot1">Departments</a></li>
+                <li><a href="log.html#post">Blog</a></li>
+                <li><a href="log.html#contact">Contact</a></li>
+            </ul>
+            <div class="r flex">
+                <img src="search.svg" class="invert search" alt="" sizes="20px" onclick="call()">
+                <input type="text" name="search" id="h-i" placeholder="search">
+            </div>
+        </div>
+        <div class="m-1 flex" id="test">
+            <div class="left">
+                <h2 class="mar hp1">YOUR MOST TRUSTED</h2>
+                <h1 class="mar hp2">HEALTH PARTNER</h1>
+                <h4 class="mar">THE BEST MEDICAL SERVICES FOR YOU</h4>
+                <p class="p1 mar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione, dicta,
+                    consequuntur aliquam dolores facere labore.</p>
+                <button class="b-1 b-r" type="button">Learn more</button>
+                <button class="b-2 b-r" type="button">Sign in</button>
+            </div>
+            <div class="right">
+                <img class="d1" src="d2-r.png" alt="" width="500px" height="350px">
+            </div>
+        </div>
+    </div>
+    <div class="bd-1 flex">
+        <div class="lb-1">
+            <h1 class="hb-1" id="hb">About uS</h1>
+            <img id="l-r" src="l1-r.png" alt="loading">
+            <p id="pb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum odio maxime odit
+                totam dolor corrupti quidem? Eligendi, commodi voluptatem ipsum asperiores magnam saepe eaque minus
+                tenetur nemo, corporis ea mollitia, soluta quibusdam molestiae obcaecati laborum. Debitis itaque
+                explicabo corrupti dolor, saepe maiores molestias incidunt distinctio eaque? Aperiam minima nam soluta
+                impedit dolor, doloremque odit autem, quod, obcaecati voluptates tempora mollitia illum saepe officiis?
+            </p>
+            <button class="b-3" type="button">Learn more</button>
+        </div>
+        <div class="rb-1">
+            <img id="ib-1" src="h1.jpg" alt="hos" width="500px" height="400px">
+        </div>
+    </div>
+    <div class="f-1">
+        <div class="over">
+        </div>
+        <h2 id="fh-1" >"When you are young and healthy,it never occurs to you thet in a single day your whole life could change.."</h2>
+        <p class="fp-1">--anamlin marvo--</p>
+    </div>
+
+    <script>
+        var query=document.querySelector('#h-i');
+        var searchBtn=document.querySelector('.search');
+        function call(){
+            let url='https://www.google.com/search?q='+query.value;
+            window.open(url,'_self');
+        }
+    </script>
+</body>
+</html>
